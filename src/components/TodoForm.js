@@ -36,7 +36,7 @@ const TodoForm=()=>{
     }
 
     return(
-        <Form onSubmit={handleSubmit}>
+        <Form onSubmit={handleSubmit} style={{bottom:300}}>
                 <InputGroup>
                 <Input 
                 type="text"
